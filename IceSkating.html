@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -126,3 +127,133 @@
     </script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice Skating</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(
+          to bottom,
+          #87ceeb 0%,
+          #b0e0e6 50%,
+          #1e90ff 100%
+        );
+
+        color: #333;
+      }
+
+      header {
+        text-align: center;
+        padding: 20px;
+        background: rgb(2, 0, 36);
+        background: linear-gradient(
+          90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(35, 242, 247, 0.7764355742296919) 35%,
+          rgba(0, 120, 137, 1) 65%,
+          rgba(0, 212, 255, 1) 100%
+        );
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border: 2px solid #1e90ff;
+        border-radius: 5px;
+      }
+
+      h1 {
+        font-size: 36px;
+        color: #283747;
+        margin: 0;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      .cta-container {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #5d6d7e;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      button:hover {
+        color: #2980b9;
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>The adventure of Ice Skating</h1>
+    </header>
+
+    <main>
+      <div>
+        <h2>Welcome to a World of Ice ⛸⛸!</h2>
+
+        <img
+          src="https://i.pinimg.com/736x/b5/d7/77/b5d77788bbc0f782cd89cee840498949.jpg"
+          width="200"
+        />
+        <p>
+          Experience the joy of gliding on ice at a mall closest to you!. Anyone
+          starting from the age of 4 is more than welcome. whether you a
+          beginner skater or a pro, our rinks are the best for all your FAMILY
+          and FRIENDS!
+        </p>
+        <p>COME SKATE WITH US!!!!!!</p>
+
+        <img
+          src="https://www.westend61.de/images/0001147310l/happy-playful-friends-ice-skating-on-an-ice-rink-ZEDF01893.jpg"
+          width="300"
+        />
+      </div>
+
+      <div class="cta-container">
+        <button onclick="showLocation()">Find Nearest Skating Rink</button>
+      </div>
+    </main>
+
+    <script>
+      function showLocation() {
+        let userName = prompt("What is your name? ");
+        let userLocation = prompt(
+          "Hello " +
+            userName +
+            "!! Please enter your location to find the nearest skating rink:"
+        );
+        if (userLocation) {
+          alert(
+            "The nearest skating rink to " +
+              userLocation +
+              " is just a glide away!"
+          );
+        } else {
+          alert("Please enter a valid location.");
+        }
+      }
+    </script>
+  </body>
+</html>
+>>>>>>> 7a5edfb05a7654de93bb233ec9931a4e5672a8ba
